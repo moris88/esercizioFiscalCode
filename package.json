@@ -1,0 +1,28 @@
+{
+    "name": "templateproject",
+    "version": "1.0.0",
+    "scripts": {
+        "compile": "prettier --write . && tsc && browserify ./temp/main.js > ./public/bundle.js -t babelify",
+        "watch": "tsc -w"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/moris88/templateProject.git"
+    },
+    "author": "moris88",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/moris88/templateProject/issues"
+    },
+    "homepage": "https://github.com/moris88/templateProject#readme",
+    "dependencies": {
+        "browserify": "^17.0.0"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.16.10",
+        "@babel/preset-env": "^7.16.10",
+        "babelify": "^10.0.0",
+        "prettier": "^2.5.1",
+        "typescript": "^4.5.4"
+    }
+}
