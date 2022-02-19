@@ -1,9 +1,0 @@
-/public
-package.json
-package-lock.json
-README.md
-/temp
-tsconfig.json
-.gitignore
-.prettierrc.json
-babel.config.json
